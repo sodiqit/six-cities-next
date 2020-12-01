@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "ESNext",
+    "target": "ES2019",
+    "declaration": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "isolatedModules": true,
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./pages/**/*.ts",
+    "./pages/**/*.tsx"
+  ],
+  "paths": {
+    "components/*": [
+      "./components/*"
+    ],
+    "utils/*": [
+      "./utils/*"
+    ],
+    "mocks/*": [
+      "./mocks/*"
+    ],
+    "store/*": [
+      "./store/*"
+    ],
+    "services/*": [
+      "./services/*"
+    ],
+    "pages/*": [
+      "./pages/*"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

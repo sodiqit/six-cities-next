@@ -11,7 +11,7 @@ const Test: FC = () => {
   return (
     <div>
       <h1 className={b('title')}>Hello</h1>
-      <img src="http://via.placeholder.com/640x360" alt="mock"/>
+      <img src="http://via.placeholder.com/500x500" alt="mock"/>
       <Button text="hi" />
     </div>
   );
